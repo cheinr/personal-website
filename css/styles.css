@@ -1,12 +1,23 @@
 h1 {
     font-family: Raleway;
-    font-size: 48px;
+    font-size: 52px;
     font-style: normal;
     font-weight: 500;
+    line-height: 40px;
+}
+
+h2, h3, h4 {
+    font-family: Raleway;
 }
 
 p {
     font-family: Raleway;
     font-size: 18px;
  
+}
+
+.centered-text {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 12px;
 }
