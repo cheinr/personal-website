@@ -93,9 +93,13 @@
       resp.data.map( function(project, index) {
 
       var projHTML = "<div class='project'>";
-	projHTML += "<img src='" + project.image_url + "' height='256' width='256'>";
+	projHTML += "<div class='crop'>";
+	  projHTML += "<img src='" + project.image_url + "' height='256' width='256'>";
+	  projHTML += "</div>";
+	projHTML += "<div>";
 	projHTML += "<h3>" + project.name + "</h3>"
-	projHTML += "<p>" + project.description + "</p>";
+	  projHTML += "<p>" + project.description + "</p>";
+	  projHTML += "</div>";
       projHTML += "</div>";
       
       if(index % 3 == 0) {
